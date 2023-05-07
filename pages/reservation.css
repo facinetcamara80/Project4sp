@@ -1,0 +1,12 @@
+img .reservation{
+    height: 60px;
+    width: 800px;
+}
+.boxcont{
+    text-align: center;
+}
+.reservation-text{
+    padding-top: 30px;
+    font-size: 3em;
+    font-weight: bold;
+}

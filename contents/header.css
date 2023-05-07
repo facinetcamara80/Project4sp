@@ -1,0 +1,42 @@
+nav {
+    width: 80%;
+    height: 15vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo {
+    /* border: 1px solid black; */
+    width: 70px;
+    height: 70px;
+    /*border: 1px solid aqua;*/
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    font-size: 15px bold;
+    }
+
+.btn {
+    border-radius: 20%;
+}
+
+.btn-menu {
+    border-radius: 5px;
+    background-color: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 105px bold;
+    border: 1px solid aqua;
+    color: green;
+    padding: 3px 5px 3px 5px ;
+    box-shadow: 20px 21px 31px -3px rgba(0,0,0,0.1);
+    
+}
