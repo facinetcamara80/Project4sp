@@ -1,0 +1,43 @@
+.newletterForm {
+    height: 40vh;
+    width: 100%;
+    /*background-color: rgb(99, 95, 89);*/ 
+    background-color: #f3f5fa;
+    margin-top: 45px ;
+    padding-bottom: 20px;
+}
+@media only screen and (max-width: 900px) {
+    .newletterForm {
+        margin-top: 9em ;
+    }
+    
+  }
+.parag , .newsform  {
+    margin: 30px 0 10px 0;
+    text-align: center;
+}
+.title {
+    text-align: center;
+    padding-top: 35px;
+    font-weight: bold;
+    color: rgb(94, 160, 160);
+}
+.newsinp , .newssub {
+    border: 2px solid aqua;
+    height: 40px;
+}
+
+.newsinp {
+    border-radius: 25px;
+    width: 300px;
+}
+
+.newssub {
+    border-radius: 25px;
+    width: 100px;
+    
+}
+
+.newsform {
+
+}

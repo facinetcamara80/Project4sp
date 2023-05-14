@@ -1,0 +1,83 @@
+.about, .services {
+    width: 100%;
+    height: 40vh;
+    
+}
+.about {
+    background-color: rgb(253, 255, 255);
+}
+
+.services {
+    /*background-color: rgb(165, 182, 127);*/
+    
+}
+
+@media only screen and (max-width: 900px) {
+    .services {
+      display: none;
+    }
+  }
+.about-title , .services-title{
+    padding-top: 15px ;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    margin-top: 20px;
+}
+.dev {
+    width: 130px;
+    height: 140px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.about-text{
+    padding-left: 40px;
+}
+.about-content{
+    text-align: center;
+    padding: 20px 30px 20px 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    border: 2px solid aqua;
+}
+
+
+.services-item-1, .services-item-2 , .services-item-3, .services-item-4 {
+    width: 170px;
+    height: 170px;
+    background-color: rgb(253, 255, 255);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    /*background-color: bisque;*/
+}
+.services-items{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.services-item-1{
+    width: 170px;
+    height: 170px;
+    /*background-image: url("../images/restaurant.jpg");
+    object-fit:fill ; */
+}
+
+
+.item1-img, .item2-img , .item3-img , .item4-img  {
+    width: 170px;
+    height: 170px;
+    object-fit: cover ;
+    border-radius: 20px;
+}
+.item-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 15px;
+}

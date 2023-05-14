@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../contents/header.css">
+    <link rel="stylesheet" href="../contents/footer.css">
+    <link rel="stylesheet" href="../contents/newletter.css">
+    <link rel="stylesheet" href="../button.css">
+    <script src="../functions/script.js"></script>
+    <script src="../button/btnscript.js"></script>
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar">
+        <img class="logo" src="../images/logo.jpg" alt="logo">
+        <div class="menu">
+            <a href="../index.html" class="btn-menu">Home</a>
+            <a href="reservation.html" class="btn-menu">Reservation</a>
+            <a href="portfolio.html" class="btn-menu">Portfolio</a>
+            <a href="contact.html" class="btn-menu">Our Team</a>
+            <a class='glowing-btn'>
+                <span class='glowing-txt'>WE
+                <span class='faulty-letter'>L
+                </span>COME</span>
+            </a>
+        </div>
+    </nav>
+<style>
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    .team {
+    width: 90%;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    }
+      
+    .team1, .team2, .team3, .team4, .team5, .team6 {
+        width: 45%;
+        height: 25vh;
+        border: transparent;
+        border-radius: 10px;
+        display: flex;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    }
+    .photo1 , .photo2, .photo3, .photo4, .photo5, .photo6{
+        margin: 5px 5px 5px 5px;
+    }
+    .me{
+        width: 146px;
+        height: 146px;
+        background-color: rgb(128, 159, 206);
+        border-radius: 50%;
+        object-fit: cover ;
+    }
+    h1{
+        display : inline;
+    }
+    .box-title{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+</style>
+
+    <main>
+        <div class="box-title">
+            <h1 class="main-title" id="hello" onclick="hello()">Our Team</h1>
+        </div>
+        <section class="team">
+            <div class="team1">
+                <div class="photo1">
+                    <img src="../images/samuel.jpg" class="me" alt="" srcset="">
+                </div>
+                <div class="texts">
+                    <div class="title">The Founder</div>
+                    <div class="team1-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt debitis ipsam labore doloribus perspiciatis.</div>
+                </div>
+            </div>
+            <div class="team2">
+                <div class="photo2">
+                    <img src="../images/bash.jpg" class="me" alt="" srcset="">
+                </div>
+                <div class="texts">
+                    <div class="title">The Founder</div>
+                    <div class="team2-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt debitis ipsam labore doloribus perspiciatis.</div>
+                </div>
+            </div>
+            <div class="team3">
+                <div class="photo3">
+                    <img src="../images/pexels.jpg" class="me" alt="" srcset="">
+                </div>
+                <div class="texts">
+                    <div class="title">The Founder</div>
+                    <div class="team3-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt debitis ipsam labore doloribus perspiciatis.</div>
+                </div>
+            </div>
+            <div class="team4">
+                <div class="photo4">
+                    <img src="../images/pexels-pixabay-220453.jpg" class="me" alt="" srcset="">
+                </div>
+                <div class="texts">
+                    <div class="title">The Founder</div>
+                    <div class="team4-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt debitis ipsam labore doloribus perspiciatis.</div>
+                </div>
+            </div>
+            <div class="team5">
+                <div class="photo5">
+                    <img src="../images/pexels-kaushal-moradiya-2884842.jpg" class="me" alt="" srcset="">
+                </div>
+                <div class="texts">
+                    <div class="title">The Founder</div>
+                    <div class="team5-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt debitis ipsam labore doloribus perspiciatis.</div>
+                </div>
+            </div>
+            <div class="team6">
+                <div class="photo6">
+                    <img src="../images/yuebirds-oLSSmw_5jyw-unsplash.jpg" class="me" alt="" srcset="">
+                </div>
+                <div class="texts">
+                    <div class="title">The Founder</div>
+                    <div class="team6-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt debitis ipsam labore doloribus perspiciatis.</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Newsletter -->
+    <div class="newletterForm">
+        <h3 class="title">Join Our Newsletter</h3>
+        <p class="parag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aperiam hic!</p>
+        <form class="newsform" action="#" method="post">
+            <input class="newsinp" type="email" name="" id="" placeholder="exemple@domaine.com">
+            <input class="newssub" type="button" value="send">
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footcop">© Copyright 2023. All Rights Reserved</div>
+        <div class="footown">Designed by <a href="mailto:lepducgn@gmail.com"  >Facinet</a></div>
+    </div>
+
+    <script>
+        
+
+        name =`Halim Boussada <i class="em em-partying_face" aria-role="presentation" aria-label="FACE WITH PARTY HORN AND PARTY HAT"></i>, just a small hack <i class="em em-skull" aria-role="presentation" aria-label="SKULL"></i> at the end !`
+        function hello() {
+            const text = "Hello World";
+        document.getElementById("hello").innerHTML = "Thank you! "+name;
+        }
+    </script>
+</body>
+</html>
