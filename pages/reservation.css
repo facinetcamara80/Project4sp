@@ -92,3 +92,42 @@ th {
   background-color: #dc3545;
   margin-left:10px;
 }
+
+/* For Desktop with small screen: */
+@media only screen and (min-width: 468px) {
+  /* For desktop: */
+  #carouselExampleIndicators {  
+    width: 100%;
+    height: 80vh;
+  }
+  .navbar{
+    display :flex;
+    flex-direction: column;
+  }
+  
+  .res-navbar{
+    display: none;
+  }
+ 
+  nav {
+    margin: 0 auto;
+    display: flex;
+}
+
+.menu {
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    font-size: 15px bold;
+    }
+}
+
+/* For mobile: */
+@media only screen and (max-width: 468px) {
+  /* For desktop: */
+  .menu{
+    display : none;
+  }
+}
+

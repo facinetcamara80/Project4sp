@@ -10,7 +10,13 @@
     .newletterForm {
         margin-top: 9em ;
     }
-    
+  }
+
+@media only screen and (max-width: 3600px) {
+   .newssub {
+        margin-top: 8px ;
+        width: 100%;
+    }
   }
 .parag , .newsform  {
     margin: 30px 0 10px 0;
